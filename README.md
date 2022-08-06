@@ -5,7 +5,8 @@ Few-shot learning (FSL) usually assumes that the query is drawn from the same la
 
 ![image](overview.jpg)
                                                        Fig. 1. The proposed Relative Feature Displacement Network (RFDNet)
-
+![image](rfd-module.jpg)
+Fig. 2. Pipeline of the Task-Aware RFD Generator.
 ## Citation
 If you find Simple Shot useful in your research, please consider citing:
 
