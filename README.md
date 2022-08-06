@@ -10,7 +10,7 @@ Few-shot learning (FSL) usually assumes that the query is drawn from the same la
 ### <p align="center">Fig. 2. Pipeline of the Task-Aware RFD Generator.</p>   
 
 ## Citation
-If you find Simple Shot useful in your research, please consider citing:  
+If you find RFDNet useful in your research, please consider citing:  
 
 ```
 @article{deng2022rfdnet,  
