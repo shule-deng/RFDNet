@@ -12,8 +12,8 @@ Few-shot learning (FSL) usually assumes that the query is drawn from the same la
 ## Citation
 If you find Simple Shot useful in your research, please consider citing:  
 
-
-```@article{deng2022rfdnet,  
+```
+@article{deng2022rfdnet,  
   title={Learning relative feature displacement for few-shot open-set recognition},  
 author={Shule Deng, Jin-Gang Yu, Zihao Wu, Hongxia Gao, Yangsheng Li and Yang Yang},  
 journal={IEEE Transactions on Multimedia},  
