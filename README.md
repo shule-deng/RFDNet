@@ -45,7 +45,7 @@ You can download the dataset from https://drive.google.com/drive/folders/12RSelk
 ### 3. Training
 * Pre-training
 ```
-    python pretrain.py <br/>
+    python pretrain.py 
 ```
 <br/>
 you can also download our pre-trained models from https://drive.google.com/drive/folders/16tQ8XnGO2OhpD2DPpchoJ916-Vs01gbn
