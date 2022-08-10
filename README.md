@@ -44,18 +44,20 @@ You can download the dataset from https://drive.google.com/drive/folders/12RSelk
 
 ### 3. Training
 * Pre-training
-
-python pretrain.py <br/>
+```
+    python pretrain.py <br/>
+```
 <br/>
 you can also download our pre-trained models from https://drive.google.com/drive/folders/16tQ8XnGO2OhpD2DPpchoJ916-Vs01gbn
 
 * Meta-training
-
-python train.py -c /path/to/config/file/dataset_name.config
-
+```
+    python train.py -c /path/to/config/file/dataset_name.config
+```
 * Evaluation
-
-python train.py -c /path/to/config/file/dataset_name.config --evaluate
+```
+    python train.py -c /path/to/config/file/dataset_name.config --evaluate
+```
 ## Contact
 If you have any question, please feel free to email us. (audsl@mail.scut.edu.cn)
 
