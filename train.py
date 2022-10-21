@@ -34,12 +34,6 @@ def main():
     if not os.path.exists(filepath):
         os.makedirs(filepath)
 
-    if args.seed is not None:
-        random.seed(args.seed)
-        torch.manual_seed(args.seed)
-        np.random.seed(args.seed)
-        cudnn.deterministic = True
-
     # create model
     if args.arch == 'ConvNet':
         from model.networks.convnet import ConvNet
@@ -126,7 +120,6 @@ def main():
                     'best_auroc': best_auroc,
                     'optimizer': optimizer.state_dict(),
                 }, is_best, epoch + 1, folder=args.save_path + '{}shot{}'.format(args.meta_train_shot,name))
-            print(f"best_auroc:{best_auroc} in {best_epoch}")
 
         # backward
         loss = criterion(cls_scores, query_y)
