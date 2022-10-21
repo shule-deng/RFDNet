@@ -105,8 +105,8 @@ class AttentionBasedBlock(nn.Module):
         self.nFeat = nFeat
         self.scale_att = nn.Parameter(
             torch.FloatTensor(1).fill_(scale_att), requires_grad=True)
-        #wkeys = torch.FloatTensor(nK, nFeat).normal_(0.0, np.sqrt(2.0 / nFeat))
-        self.wkeys = nn.Parameter(weight_base, requires_grad=True)
+        wkeys = torch.FloatTensor(nK, nFeat).normal_(0.0, np.sqrt(2.0 / nFeat))
+        self.wkeys = nn.Parameter(wkeys, requires_grad=True)
 
 
     def forward(self, features_train, weight_base, Kbase):
