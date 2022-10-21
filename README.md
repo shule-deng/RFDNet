@@ -31,21 +31,7 @@ If you find RFDNet useful in your research, please consider citing:
 (2) Pytorch 1.8.1 <br/>
 (3) CUDA 11.2 <br/>
 
-### 2. Download Datasets
-* Mini-ImageNet
-```
-You can download the dataset from https://drive.google.com/file/d/1fJAK5WZTjerW7EWHHQAR9pRJVNg1T1Y7/view
-```
-* Tiered-ImageNet
-```
-You can download the dataset from https://drive.google.com/file/d/1g1aIDy2Ar_MViF2gDXFYDBTR-HYecV07/view.
-```
-* CIFAR-FS
-```
-You can download the dataset from https://drive.google.com/drive/folders/12RSelk-cW_nkOPkeux1TIcX53BBOfFyN?usp=sharing
-```
-
-### 3. Training
+### 2. Training
 * Prepare the pretrained network
 ```
     download the pre-trained models from https://drive.google.com/drive/folders/16tQ8XnGO2OhpD2DPpchoJ916-Vs01gbn
@@ -70,7 +56,19 @@ You can download the dataset from https://drive.google.com/drive/folders/12RSelk
     python train.py -c /path/to/config/file/dataset_name.config --evaluate
 ```
 
-You can also pretrain the network on the base class by yourself.
+You can also download datasets and pretrain the network on the base class by yourself.
+* Mini-ImageNet
+```
+You can download the dataset from https://drive.google.com/file/d/1fJAK5WZTjerW7EWHHQAR9pRJVNg1T1Y7/view
+```
+* Tiered-ImageNet
+```
+You can download the dataset from https://drive.google.com/file/d/1g1aIDy2Ar_MViF2gDXFYDBTR-HYecV07/view.
+```
+* CIFAR-FS
+```
+You can download the dataset from https://drive.google.com/drive/folders/12RSelk-cW_nkOPkeux1TIcX53BBOfFyN?usp=sharing
+```
 ## Contact
 If you have any question, please feel free to email us. (audsl@mail.scut.edu.cn)
 
