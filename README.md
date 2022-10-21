@@ -44,13 +44,13 @@ You can download the dataset from https://drive.google.com/drive/folders/12RSelk
 
 ### 3. Training
 * Prepare the pretrained network
-* 
+```
 download the pre-trained models from https://drive.google.com/drive/folders/16tQ8XnGO2OhpD2DPpchoJ916-Vs01gbn
-
+```
 * Prepare the feature extracted by the pre-trained network, which can improve the training speed
-* 
+```
 download the extracted feature from 
-
+```
 * Set the config file
 
 
