@@ -45,14 +45,17 @@ You can download the dataset from https://drive.google.com/drive/folders/12RSelk
 ### 3. Training
 * Prepare the pretrained network
 ```
-download the pre-trained models from https://drive.google.com/drive/folders/16tQ8XnGO2OhpD2DPpchoJ916-Vs01gbn
+    download the pre-trained models from https://drive.google.com/drive/folders/16tQ8XnGO2OhpD2DPpchoJ916-Vs01gbn
 ```
 * Prepare the feature extracted by the pre-trained network, which can improve the training speed
 ```
-download the extracted feature from 
+    download the extracted feature from https://drive.google.com/drive/folders/1ofSOLxa5UgBWs_LME-hYTcFredg9-nuO?usp=sharing
 ```
 * Set the config file
-
+```
+    Complete the parameter settings for the config/dataset_name/resnet18.config as follow:
+    (1) 
+```
 
 * Training
 ```
