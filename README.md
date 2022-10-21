@@ -43,9 +43,16 @@ You can download the dataset from https://drive.google.com/drive/folders/12RSelk
 
 
 ### 3. Training
-you can pretrain the backbone on base class by yourself or download our pre-trained models from https://drive.google.com/drive/folders/16tQ8XnGO2OhpD2DPpchoJ916-Vs01gbn
+* Prepare the pretrained network
+download the pre-trained models from https://drive.google.com/drive/folders/16tQ8XnGO2OhpD2DPpchoJ916-Vs01gbn
 
-* Meta-training
+* Prepare the feature extracted by the pre-trained network, which can improve the training speed
+You can download the extracted feature from 
+
+* Set the config file
+
+
+* Training
 ```
     python train.py -c /path/to/config/file/dataset_name.config
 ```
