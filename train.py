@@ -225,7 +225,10 @@ def save_stage1(model):
         train_sample:      features of each sample in the training set
         val_sample:        features of each sample in the val set
         test_sample:       features of each sample in the test set
-    '''
+    '''    
+    if os.path.isfile(args.save_path + '/output.plk'):
+        data = load_pickle(args.save_path + '/output.plk')
+        return data
     train_loader = get_dataloader('train', aug=False, shuffle=False, out_name=False)
     val_loader = get_dataloader('val', aug=False, shuffle=False, out_name=False)
     test_loader = get_dataloader('test', aug=False, shuffle=False, out_name=False)
