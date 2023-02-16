@@ -59,7 +59,7 @@ If you find RFDNet useful in your research, please consider citing:
 You can also download datasets and pretrain the network on the base class by yourself.
 * Mini-ImageNet
 ```
-You can download the dataset from https://drive.google.com/file/d/1fJAK5WZTjerW7EWHHQAR9pRJVNg1T1Y7/view
+You can download the dataset from https://drive.google.com/file/d/1X7jZFU9S8YOeLC1YjELPM8AFYC6f-AYt/view?usp=sharing
 ```
 * Tiered-ImageNet
 ```
