@@ -63,7 +63,7 @@ You can download the dataset from https://drive.google.com/file/d/1X7jZFU9S8YOeL
 ```
 * Tiered-ImageNet
 ```
-You can download the dataset from https://drive.google.com/file/d/1g1aIDy2Ar_MViF2gDXFYDBTR-HYecV07/view.
+You can download the dataset from https://drive.google.com/file/d/1yq8HZZyZ7atvINg0ix5S0uHm3wz9sU5Q/view?usp=sharing
 ```
 * CIFAR-FS
 ```
